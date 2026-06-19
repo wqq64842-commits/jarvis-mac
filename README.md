@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Jarvis
+# 🤖 HoloJarvis
 
 **你电脑上的中文语音管家 —— 喊一声「贾维斯」，动口就办事。**
 
@@ -12,7 +12,7 @@
 
 **简体中文** · [English](./README.en.md)
 
-<img src="docs/demo.gif" width="440" alt="Jarvis 演示" />
+<img src="docs/demo.gif" width="440" alt="HoloJarvis 演示" />
 
 <sub>演示：喊「贾维斯」→ 聆听 → 思考 → 用克隆音回答，HUD 反应堆随状态变色</sub>
 
@@ -22,7 +22,7 @@
 
 ## ✨ 这是什么
 
-Jarvis 是一个跑在 **macOS / Windows** 上的**中文语音助手**，灵感来自电影里钢铁侠的 AI 管家。
+HoloJarvis 是一个跑在 **macOS / Windows** 上的**中文语音助手**，灵感来自电影里钢铁侠的 AI 管家。
 你对着电脑喊「贾维斯」，它就醒来听你说话、理解意图、调用工具把事办了，再用语音回答你——
 桌面上还浮着一块青色的全息控制台桌宠，实时显示时间、系统状态和对话字幕。
 
@@ -83,8 +83,8 @@ flowchart LR
 
 ```bash
 # 1) 克隆
-git clone https://github.com/wqq64842-commits/jarvis.git
-cd jarvis
+git clone https://github.com/wqq64842-commits/holojarvis.git
+cd holojarvis
 
 # 2) 建虚拟环境并装依赖
 python3.12 -m venv .venv
@@ -110,8 +110,8 @@ cp model.txt.example    model.txt      # 选模型，如 deepseek-chat
 
 ```powershell
 # 1) 克隆
-git clone https://github.com/wqq64842-commits/jarvis.git
-cd jarvis
+git clone https://github.com/wqq64842-commits/holojarvis.git
+cd holojarvis
 
 # 2) 建虚拟环境并装依赖
 py -3.12 -m venv .venv

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Jarvis
+# 🤖 HoloJarvis
 
 **A Chinese voice butler for your Mac — just say "Jarvis" and it gets things done.**
 
@@ -12,7 +12,7 @@ Local speech recognition · any LLM (via your own gateway / DeepSeek / GPT…) �
 
 [简体中文](./README.md) · **English**
 
-<img src="docs/demo.gif" width="440" alt="Jarvis demo" />
+<img src="docs/demo.gif" width="440" alt="HoloJarvis demo" />
 
 <sub>Demo: say "Jarvis" → listen → think → reply in a cloned voice; the HUD arc reactor shifts color by state</sub>
 
@@ -22,7 +22,7 @@ Local speech recognition · any LLM (via your own gateway / DeepSeek / GPT…) �
 
 ## ✨ What is this
 
-Jarvis is a **Chinese-language voice assistant** for **macOS / Windows**, inspired by Iron Man's AI butler.
+HoloJarvis is a **Chinese-language voice assistant** for **macOS / Windows**, inspired by Iron Man's AI butler.
 Say "Jarvis" to your computer and it wakes up, listens, understands what you want, calls tools to do it,
 and answers you by voice — while a cyan holographic console pet floats on your desktop showing the time,
 system telemetry, and live conversation captions.
@@ -84,8 +84,8 @@ flowchart LR
 
 ```bash
 # 1) Clone
-git clone https://github.com/wqq64842-commits/jarvis.git
-cd jarvis
+git clone https://github.com/wqq64842-commits/holojarvis.git
+cd holojarvis
 
 # 2) Create a venv and install deps
 python3.12 -m venv .venv
@@ -111,8 +111,8 @@ cp model.txt.example    model.txt      # pick a model, e.g. deepseek-chat
 
 ```powershell
 # 1) Clone
-git clone https://github.com/wqq64842-commits/jarvis.git
-cd jarvis
+git clone https://github.com/wqq64842-commits/holojarvis.git
+cd holojarvis
 
 # 2) Create a venv and install deps
 py -3.12 -m venv .venv
